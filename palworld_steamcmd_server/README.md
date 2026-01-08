@@ -1,4 +1,11 @@
-# 🦖 Palworld Dedicated Server (SteamCMD)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/assets/banner.png" alt="Home Assistant Game Servers Add-ons" width="50%">
+</p>
+
+<p align="center">
+   # 🦖 Palworld Dedicated Server (SteamCMD)
+</p>
+
 <p align="center">
   ![Home Assistant OS](https://img.shields.io/badge/Home%20Assistant-OS-blue)
   ![Architecture](https://img.shields.io/badge/Architecture-amd64-blue)
