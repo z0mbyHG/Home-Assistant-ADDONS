@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Home%20Assistant-Supported-blue.svg">
-  <img src="https://img.shields.io/badge/Type-Dedicated%20Server-black.svg">
+  <img src="https://img.shields.io/badge/Type-Dedicated%20Server-red.svg">
   <img src="https://img.shields.io/badge/Platform-HAOS%20%7C%20Docker-green.svg">
   <img src="https://img.shields.io/badge/Status-Active%20Development-orange.svg">
 </p>
