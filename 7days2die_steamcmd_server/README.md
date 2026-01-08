@@ -7,6 +7,18 @@
 <h1 align="center">7 Days to Die Dedicated Server (SteamCMD)</h1>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/7days2die_steamcmd_server/banner.jpg" width="80%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Home%20Assistant-Add--on-0f172a?style=for-the-badge&logo=homeassistant&logoColor=white">
+  <img src="https://img.shields.io/badge/SteamCMD-Included-0f172a?style=for-the-badge&logo=steam&logoColor=white">
+  <img src="https://img.shields.io/badge/Dedicated-Server-0f172a?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Persistent-Saves-0f172a?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Architecture-amd64-0f172a?style=for-the-badge">
+</p>
+
+<p align="center">
   Run a fully automated <strong>7 Days to Die</strong> dedicated server directly inside <strong>Home Assistant OS</strong>.
   <br>
   Download, update, validate and run the server using <strong>SteamCMD</strong> – fully integrated as a Home Assistant Add-on.
