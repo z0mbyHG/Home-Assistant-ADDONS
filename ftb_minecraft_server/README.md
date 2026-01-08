@@ -107,6 +107,53 @@ other Java versions when common incompatibility errors are detected.
 
 ---
 
+🔍 How to find FTB Pack IDs and Version IDs
+
+To install an FTB modpack, you need two values:
+
+Pack ID
+
+Version ID
+
+Both can be found on the official Feed The Beast website.
+
+📦 Find the Pack ID
+Open the official FTB modpack list:
+
+👉 https://www.feed-the-beast.com/modpacks
+Click on the modpack you want to use.
+Look at the URL in your browser.
+Example:
+https://www.feed-the-beast.com/modpacks/97-ftb-one
+
+👉 The number after /modpacks/ is the Pack ID
+In this example:
+Pack ID = 97
+
+🧩 Find the Version ID
+On the modpack page, open the Versions tab
+or go directly to:
+https://www.feed-the-beast.com/modpacks/<PACK_ID>/versions
+
+Click on the version you want to use.
+
+Check the URL:
+https://www.feed-the-beast.com/modpacks/97-ftb-one/versions/100069
+
+👉 The last number in the URL is the Version ID
+In this example:
+Version ID = 100069
+
+⚠️ Important Note
+Using:
+version_id: 0
+means “latest version”, but this can cause connection issues if the client and server are not on the exact same version.
+
+✅ Recommendation:
+Always set a fixed version_id for stable and reliable connections.
+
+---
+
 ## 📜 Logs
 
 - **Live output** is shown directly in the Home Assistant Add-on log
@@ -168,10 +215,3 @@ Feed The Beast (FTB) is a trademark of Feed The Beast Ltd.
     — inspired by Minecraft
   </span>
 </p>
-
-
-
-
-
-
-
