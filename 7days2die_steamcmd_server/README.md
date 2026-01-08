@@ -3,11 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Home%20Assistant-Add--on-0f172a?style=for-the-badge&logo=homeassistant&logoColor=white">
-  <img src="https://img.shields.io/badge/SteamCMD-Included-0f172a?style=for-the-badge&logo=steam&logoColor=white">
-  <img src="https://img.shields.io/badge/Dedicated-Server-0f172a?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Persistent-Saves-0f172a?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Architecture-amd64-0f172a?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Home%20Assistant-Add--on-blue?logo=homeassistant&logoColor=white">
+  <img src="https://img.shields.io/badge/SteamCMD-Included-blue?logo=steam&logoColor=white">
+  <img src="https://img.shields.io/badge/Type-Dedicated%20Server-blue">
+  <img src="https://img.shields.io/badge/Architecture-amd64-blue">
 </p>
 
 <p align="center">
