@@ -1,4 +1,4 @@
-p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/ftb_minecraft_server/banner.png" alt="FTB Minecraft Server Home Assistant Add-on" width="100%">
 </p>
 
@@ -49,14 +49,8 @@ All server files are stored persistently in:
 
 /share/ftb/<instance_name>/
 
-makefile
-Code kopieren
-
 Example:
 /share/ftb/ftb_one_test/
-
-markdown
-Code kopieren
 
 You can freely edit:
 - `server.properties`
