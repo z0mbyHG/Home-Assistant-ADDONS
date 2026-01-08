@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-   # 🦖 Palworld Dedicated Server (SteamCMD)
+   🦖 Palworld Dedicated Server (SteamCMD)
 </h1>
 
 <p align="center">
