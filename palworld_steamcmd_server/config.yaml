@@ -1,6 +1,6 @@
 name: Palworld Dedicated Server (SteamCMD)
 slug: palworld_steamcmd_server
-description: Palworld Dedicated Server – Steam komplett unter /share
+description: Palworld Dedicated Server
 version: "1.3.0"
 arch:
   - amd64
