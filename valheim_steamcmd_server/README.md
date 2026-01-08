@@ -50,9 +50,6 @@ All relevant data is stored persistently:
 ├── data/ # Worlds, saves, characters
 └── home/ # Unity / Steam / PlayerPrefs (persistent)
 
-yaml
-Code kopieren
-
 ---
 
 ## 🌐 Network & Ports
@@ -64,8 +61,6 @@ Valheim requires **three consecutive UDP ports**.
 2457/udp
 2458/udp
 
-csharp
-Code kopieren
 
 ### External ports
 You may freely remap the ports in the Home Assistant add-on configuration.
@@ -75,8 +70,6 @@ Example:
 30057 → 2457
 30058 → 2458
 
-yaml
-Code kopieren
 
 ⚠️ **Important:**  
 Ports must always remain consecutive.
