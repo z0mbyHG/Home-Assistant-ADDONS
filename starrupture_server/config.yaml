@@ -1,6 +1,6 @@
 name: StarRupture Dedicated Server (SteamCMD + Wine)
 slug: starrupture_server
-version: "1.0.6"
+version: "1.0.7"
 
 description: >
   StarRupture Dedicated Server
