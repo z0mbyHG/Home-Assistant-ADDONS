@@ -8,8 +8,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Home%20Assistant-blue.svg" alt="Platform: Home Assistant">
   <img src="https://img.shields.io/badge/Architecture-amd64-blue.svg" alt="Architecture: amd64">
-  <img src="https://img.shields.io/badge/Type-ADD--ON-yellow.svg" alt="Home Assistant Add-on">
-  <img src="https://img.shields.io/badge/Type-Dedicated%20Server-red.svg">
+  <img src="https://img.shields.io/badge/Category-ADD--ON-yellow">
+  <img src="https://img.shields.io/badge/Type-Dedicated%20Server-red">
   <img src="https://img.shields.io/badge/Status-Active%20Development-orange.svg">
 </p>
 
