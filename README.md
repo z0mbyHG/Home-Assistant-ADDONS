@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Architecture-amd64-blue.svg" alt="Architecture: amd64">
   <img src="https://img.shields.io/badge/Category-ADD--ON-yellow">
   <img src="https://img.shields.io/badge/Type-Dedicated%20Server-red">
-  <img src="https://img.shields.io/badge/Status-Active%20Development-orange.svg">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-green.svg">
 </p>
 
 ---
