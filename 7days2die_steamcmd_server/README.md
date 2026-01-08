@@ -1,12 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/7days2die_steamcmd_server/banner.jpg"
-       alt="7 Days to Die Dedicated Server for Home Assistant"
-       width="80%">
-</p>
-
-<h1 align="center">7 Days to Die Dedicated Server (SteamCMD)</h1>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/7days2die_steamcmd_server/banner.jpg" width="80%">
 </p>
 
