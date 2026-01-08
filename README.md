@@ -67,8 +67,6 @@ You can add this repository directly to your **Home Assistant Add-on Store**:
 ### 👉 Add Repository
 https://github.com/cyclemat/Home-Assistant-Gameservers-ADDONS
 
-yaml
-Code kopieren
 
 In Home Assistant:
 1. Go to **Settings → Add-ons → Add-on Store**
