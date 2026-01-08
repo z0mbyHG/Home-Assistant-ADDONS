@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/css_steamcmd_server/banner.png" alt="Counter-Strike: Source Dedicated Server Add-on" width="100%">
+  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/css_steamcmd_server/banner.png" alt="Counter-Strike: Source Dedicated Server Add-on" width="50%">
 </p>
 
 <h1 align="center">Counter-Strike: Source Dedicated Server (SteamCMD)</h1>
