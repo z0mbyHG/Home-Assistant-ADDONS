@@ -5,7 +5,7 @@ version: "1.0.7"
 description: >
   StarRupture Dedicated Server
 
-url: https://github.com/cyclemat/HAOS---StarRupture-Dedicated-Server
+url: https://github.com/cyclemat/Home-Assistant-Gameservers-ADDONS/tree/main/starrupture_server
 
 arch:
   - amd64
