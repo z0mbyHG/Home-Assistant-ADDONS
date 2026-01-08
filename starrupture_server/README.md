@@ -109,7 +109,10 @@ GitHub: https://github.com/cyclemat
 This add-on is not affiliated with or endorsed by StarRupture or its developers.
 All trademarks belong to their respective owners.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/assets/logo.png" width="200">
+</p>
 
-This project is developed and maintained in my free time.
-If it helps you and you like my work, I would be very happy about a small donation via PayPal to support further development.
-Paypal: CyCleMat@googlemail.com
+<p align="center">
+  <strong>Explore, survive and build your future among the stars. 🚀🔥</strong>
+</p>
