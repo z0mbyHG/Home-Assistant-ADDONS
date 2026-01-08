@@ -102,3 +102,11 @@ GitHub: https://github.com/cyclemat
 📜 Disclaimer
 This add-on is not affiliated with or endorsed by Pocketpair or Palworld developers.
 All trademarks and game content belong to their respective owners.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cyclemat/Home-Assistant-Gameservers-ADDONS/main/assets/logo.png" width="200">
+</p>
+
+<p align="center">
+  <strong>Have fun surviving, collecting Pals and automating your Palworld! 🐾⚙️</strong>
+</p>
