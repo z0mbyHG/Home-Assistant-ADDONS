@@ -1,0 +1,47 @@
+name: "Minecraft Vanilla Dedicated Server"
+slug: minecraft_vanilla_server
+description: >
+  Minecraft Vanilla Dedicated Server for Home Assistant OS.
+  Automatically installs Java, accepts the Minecraft EULA,
+  downloads the selected server version and stores all data
+  persistently in /share.
+version: "0.0.2"
+
+arch:
+  - amd64
+  - aarch64
+
+startup: application
+boot: auto
+init: false
+host_network: false
+
+# Container läuft IMMER auf 25565
+# Der Host-Port kann im HA UI geändert werden
+ports:
+  25565/tcp: 25565
+ports_description:
+  25565/tcp: "Minecraft server port (container fixed to 25565)"
+
+map:
+  - share:rw
+
+options:
+  data_dir: "/share/minecraft-vanilla"
+
+  # RAM (MB)
+  xms_mb: 1024
+  xmx_mb: 4096
+
+  # "latest" oder z.B. "1.21.1"
+  mc_version: "latest"
+
+  # Optional: feste Server-JAR URL (überschreibt mc_version)
+  server_jar_url: ""
+
+schema:
+  data_dir: str
+  xms_mb: int
+  xmx_mb: int
+  mc_version: str
+  server_jar_url: str?
