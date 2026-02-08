@@ -20,11 +20,6 @@ USER steam
 ADD files/steam_appid.txt steam_appid.txt
 
 # Add maps
-COPY maps/maps/ cstrike/maps/
-COPY maps/gfx/ cstrike/gfx/
-COPY maps/overviews/ cstrike/overviews/
-COPY maps/sound/ cstrike/sound/
-COPY maps/sprites/ cstrike/sprites/
 ADD files/mapcycle.txt cstrike/mapcycle.txt
 
 # Add default config
@@ -46,10 +41,6 @@ ADD files/dproto.cfg cstrike/dproto.cfg
 RUN curl -sqL "http://www.amxmodx.org/release/amxmodx-$amxmod_version-base-linux.tar.gz" | tar -C cstrike/ -zxvf -
 RUN curl -sqL "http://www.amxmodx.org/release/amxmodx-$amxmod_version-cstrike-linux.tar.gz" | tar -C cstrike/ -zxvf -
 ADD files/maps.ini cstrike/addons/amxmodx/configs/maps.ini
-
-# Install Bots (podbot)
-RUN mkdir -p cstrike/addons/podbot
-ADD podbot cstrike/addons/podbot
 
 EXPOSE 27015/udp
 ENTRYPOINT ./hlds_run -game cstrike -strictportbind -ip 0.0.0.0 -port $PORT +sv_lan $SV_LAN +map $MAP -maxplayers $MAXPLAYERS
