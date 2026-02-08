@@ -1,7 +1,7 @@
-name: CS 1.6 AMX + podbot
+name: CS 1.6 novi
 version: "1.0"
 slug: cs16_amx_test
-description: Counter-Strike 1.6 Dedicated Server with AMX Mod X
+description: Counter-Strike 1.6 Dedicated Server with AMX Mod X on haos
 arch:
   - amd64
   - armv7
@@ -10,8 +10,6 @@ arch:
 startup: services
 boot: auto
 host_network: false
-map:
-  - config:rw
 ports:
   - 27015:27015/udp
   - 27015:27015
