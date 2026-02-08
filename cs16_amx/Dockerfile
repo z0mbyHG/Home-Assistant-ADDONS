@@ -9,7 +9,7 @@ RUN dpkg --add-architecture i386 \
     lib32gcc-s1 \
     lib32stdc++6 \
     libcurl4-gnutls-dev:i386 \
-    libcurl4:i386
+    libcurl4:i386 \
     wget \
     unzip \
     tar \
