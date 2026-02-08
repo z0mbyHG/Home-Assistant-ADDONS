@@ -56,8 +56,6 @@ RUN echo "linux addons/amxmodx/dlls/amxmodx_mm_i386.so" \
 RUN sed -i \
  's|gamedll_linux.*|gamedll_linux "addons/metamod/dlls/metamod.so"|' \
  ${HLDS_DIR}/cstrike/liblist.gam
-RUN touch /hlds/cstrike/listip.cfg \
- && touch /hlds/cstrike/banned.cfg
 
 # Run script
 COPY run.sh /run.sh
