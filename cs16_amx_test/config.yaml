@@ -11,8 +11,8 @@ startup: services
 boot: auto
 host_network: false
 ports:
-  - 27015/udp:27015
-  - 27015:27015
+  27015/udp:27015
+  27015:27015
 schema:
   PORT: int
   MAXPLAYERS: int
