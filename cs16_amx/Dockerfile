@@ -24,7 +24,8 @@ RUN mkdir -p ${STEAMCMD_DIR} \
 # Install CS 1.6 (appid 90)
 RUN ${STEAMCMD_DIR}/steamcmd.sh +login anonymous \
  +force_install_dir ${HLDS_DIR} \
- +app_update 90 validate \
+ +app_set_config 90 mod cstrike \
+ +app_update 90 -beta steam_legacy validate\
  +quit
 
 # =========================
