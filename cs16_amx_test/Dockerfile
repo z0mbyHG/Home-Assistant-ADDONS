@@ -24,7 +24,7 @@ ADD files/server.cfg cstrike/server.cfg
 
 # Install metamod
 RUN mkdir -p cstrike/addons/metamod/dlls
-RUN curl -sqL "" | tar -C cstrike/addons/metamod/dlls -zxvf -
+RUN curl -sqL "https://github.com/z0mbyHG/Home-Assistant-ADDONS/raw/refs/heads/main/cs16_amx_test/files/metamod.tar.gz" | tar -C cstrike/addons/metamod/dlls -zxvf -
 ADD files/liblist.gam cstrike/liblist.gam
 # Remove this line if you aren't going to install/use amxmodx, dproto and podbot
 ADD files/plugins.ini cstrike/addons/metamod/plugins.ini
