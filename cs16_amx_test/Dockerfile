@@ -1,8 +1,5 @@
 FROM cm2network/steamcmd
 
-ARG metamod_version=1.20
-ARG amxmod_version=1.8.2
-
 ENV CSTRIKE "${HOMEDIR}/cstrike"
 ENV PORT 27015
 ENV MAP de_dust2
@@ -27,7 +24,8 @@ ADD files/server.cfg cstrike/server.cfg
 
 # Install metamod
 RUN mkdir -p cstrike/addons/metamod/dlls
-RUN curl -sqL "http://prdownloads.sourceforge.net/metamod/metamod-$metamod_version-linux.tar.gz?download" | tar -C cstrike/addons/metamod/dlls -zxvf -
+RUN curl -sL https://www.amxmodx.org/release/metamod-1.21.1-am-linux.tar.gz \
+ | tar -C cstrike/ -zxvf -
 ADD files/liblist.gam cstrike/liblist.gam
 # Remove this line if you aren't going to install/use amxmodx, dproto and podbot
 ADD files/plugins.ini cstrike/addons/metamod/plugins.ini
@@ -38,8 +36,8 @@ ADD files/dproto_i386.so cstrike/addons/dproto/dproto_i386.so
 ADD files/dproto.cfg cstrike/dproto.cfg
 
 # Install AMX mod X
-RUN curl -sqL "http://www.amxmodx.org/release/amxmodx-$amxmod_version-base-linux.tar.gz" | tar -C cstrike/ -zxvf -
-RUN curl -sqL "http://www.amxmodx.org/release/amxmodx-$amxmod_version-cstrike-linux.tar.gz" | tar -C cstrike/ -zxvf -
+RUN curl -sqL "https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5474-base-linux.tar.gz" | tar -C cstrike/ -zxvf -
+RUN curl -sqL "https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5474-cstrike-linux.tar.gz" | tar -C cstrike/ -zxvf -
 ADD files/maps.ini cstrike/addons/amxmodx/configs/maps.ini
 
 EXPOSE 27015/udp
