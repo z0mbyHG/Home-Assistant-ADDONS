@@ -8,6 +8,8 @@ RUN dpkg --add-architecture i386 \
  && apt install -y \
     lib32gcc-s1 \
     lib32stdc++6 \
+    libcurl4-gnutls-dev:i386 \
+    libcurl4:i386
     wget \
     unzip \
     tar \
@@ -54,6 +56,8 @@ RUN echo "linux addons/amxmodx/dlls/amxmodx_mm_i386.so" \
 RUN sed -i \
  's|gamedll_linux.*|gamedll_linux "addons/metamod/dlls/metamod.so"|' \
  ${HLDS_DIR}/cstrike/liblist.gam
+RUN touch /hlds/cstrike/listip.cfg \
+ && touch /hlds/cstrike/banned.cfg
 
 # Run script
 COPY run.sh /run.sh
