@@ -23,9 +23,8 @@ ADD files/mapcycle.txt cstrike/mapcycle.txt
 ADD files/server.cfg cstrike/server.cfg
 
 # Install metamod
-RUN mkdir -p cstrike/addons/metamod/dlls
 RUN curl -sL https://www.amxmodx.org/release/metamod-1.21.1-am-linux.tar.gz \
- | tar -C cstrike/ -zxvf -
+ && unzip metamod-1.21.1-am.zip -d cstrike/ \
 ADD files/liblist.gam cstrike/liblist.gam
 # Remove this line if you aren't going to install/use amxmodx, dproto and podbot
 ADD files/plugins.ini cstrike/addons/metamod/plugins.ini
