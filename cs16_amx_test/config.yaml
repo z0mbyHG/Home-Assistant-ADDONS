@@ -1,6 +1,6 @@
 name: CS 1.6 AMX + podbot
 version: "1.0"
-slug: cs16_amx
+slug: cs16_amx_test
 description: Counter-Strike 1.6 Dedicated Server with AMX Mod X
 arch:
   - amd64
