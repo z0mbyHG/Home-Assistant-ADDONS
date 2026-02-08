@@ -1,0 +1,24 @@
+name: CS 1.6 AMX
+version: "1.0"
+slug: cs16_amx
+description: Counter-Strike 1.6 Dedicated Server with AMX Mod X
+arch:
+  - amd64
+  - armv7
+  - armhf
+  - aarch64
+startup: services
+boot: auto
+host_network: false
+ports:
+  27015/udp: 27015
+schema:
+  PORT: int
+  MAXPLAYERS: int
+  MAP: str
+  HOSTNAME: str
+options:
+  PORT: 27015
+  MAXPLAYERS: 10
+  MAP: de_dust2
+  HOSTNAME: "HA CS 1.6 AMX"
